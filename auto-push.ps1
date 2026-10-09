@@ -1,9 +1,7 @@
-
 Set-Location "D:\CORE JAVA"
 
 while ($true) {
     git add .
-
     $changes = git status --porcelain
 
     if ($changes) {
